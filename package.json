@@ -1,0 +1,30 @@
+{
+  "name": "introtobackendwebdevelopment",
+  "version": "1.0.0",
+  "description": "un tutorial para introduccion al backend",
+  "main": "backend/src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/src/index.js",
+    "dev": "nodemon backend/src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leonaldo999/IntroToBackendWebDevelopment.git"
+  },
+  "author": "leoNaldo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leonaldo999/IntroToBackendWebDevelopment/issues"
+  },
+  "homepage": "https://github.com/leonaldo999/IntroToBackendWebDevelopment#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "mongoose": "^9.12.2"
+  },
+  "devDependencies": {
+    "nodemon": "3.1.11"
+  }
+}
